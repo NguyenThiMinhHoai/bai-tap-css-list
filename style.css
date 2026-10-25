@@ -1,0 +1,114 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f1f5f9;
+    color: #334155;
+    margin: 0;
+    padding: 30px 15px;
+}
+
+main {
+    max-width: 850px;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+    color: #1d4ed8;
+    font-size: 26px;
+    margin-bottom: 30px;
+}
+
+section {
+    background-color: white;
+    padding: 22px 30px;
+    margin-bottom: 22px;
+    border-radius: 10px;
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.06);
+}
+
+h2 {
+    color: #2563eb;
+    font-size: 20px;
+}
+
+h3 {
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+li {
+    padding: 6px 0;
+}
+
+/* 1. Kieu danh dau hinh vuong */
+.square-list {
+    list-style-type: square;
+}
+
+/* 2. So La Ma viet hoa */
+.roman-list {
+    list-style-type: upper-roman;
+}
+
+/* 3. Su dung hinh anh */
+.image-list {
+    list-style-image: url("marker.svg");
+    list-style-position: outside;
+}
+
+/* 4. Vi tri dau danh dau */
+.outside-list {
+    list-style-type: disc;
+    list-style-position: outside;
+    max-width: 280px;
+    padding-left: 35px;
+}
+
+.inside-list {
+    list-style-type: disc;
+    list-style-position: inside;
+    max-width: 280px;
+    padding-left: 35px;
+}
+
+/* 5. Thuoc tinh rut gon */
+.shorthand-list {
+    list-style: square inside url("marker.svg");
+}
+
+/* 6. Mau sac va khoang cach */
+.color-list {
+    background-color: #dbeafe;
+    padding: 20px 20px 20px 45px;
+    border-radius: 8px;
+}
+
+.color-list li {
+    color: #1e40af;
+    margin: 8px 0;
+    padding: 8px;
+    background-color: #eff6ff;
+    border-radius: 5px;
+}
+
+/* 7. Bai tap tong hop */
+.roadmap-list {
+    list-style: upper-roman inside;
+    background-color: #dcfce7;
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 15px;
+}
+
+.roadmap-list li {
+    color: #166534;
+    background-color: #f0fdf4;
+    padding: 12px;
+    margin-bottom: 10px;
+    border-radius: 6px;
+    font-weight: bold;
+}
